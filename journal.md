@@ -1,10 +1,5 @@
 #This is the journal for Comp Sci
 
-1. What did we do?
-1. What did you learn?
-1. What questions do I have?
-
-
 Jan 30th Thu
 1. What did we do?
 We did an activity of making Dr. Ruben make a jam sandwich. Each step was taken seriously and one lacking part or vague information would make the step not work
