@@ -23,6 +23,7 @@ I want to be able to do the programming more quickly so I can make more complex 
 Feb 13th Thurs
 1. What did we do?
 We updated the dice. We put a bargraph so that we can look at the infomation/data moe quickly and we also changed the colors of different things.
+
 #These variables are to count the rools of the divice
 
 ones=0
@@ -131,6 +132,7 @@ def mouseClick():
         circle(400,400,50)
         sixes= sixes + 1
         print("Number or times sixes has been rolled:",sixes)
+
 
 1. What did you learn?
 I learned how to code bargraphs and I also learned how to put in loops/patters (for x in range)
