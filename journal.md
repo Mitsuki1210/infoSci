@@ -143,6 +143,35 @@ April 7
 1. What did we do? 
 We started making a corona simulation code that would help with imagining the spread of corona
 
+# definition of variables
+x = 300
+y = 300
+
+def setup():
+    size(500,500)
+    
+def draw():
+    global x, y
+    background(255)
+    strokeWeight(2)
+    
+    #create 1st individual
+    circle(x, y, 40)
+    x = x + random(-10, 10)
+    y = y + random(-10, 10)
+        
+    #bounderies conditions
+    if x > 500:
+        x = 500
+    if x < 0:
+        x = 0
+    if y > 500:
+        y = 500
+    if y < 0:
+        y = 0
+    
+    delay(100)
+
 1. What did you learn?
 I learned that it is very important to know what your goal is for the code and being able to decide where you can use loops. This allows for a large time decrease and makes your code easier to follow as well
 
