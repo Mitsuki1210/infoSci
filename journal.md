@@ -139,3 +139,12 @@ I learned how to code bargraphs and I also learned how to put in loops/patters (
 1. What questions do I have?
 I want to learn how to be able to make colors quickly. Also to be able to make the loops more quickly
 
+April 7
+1. What did we do? 
+We started making a corona simulation code that would help with imagining the spread of corona
+
+1. What did you learn?
+I learned that it is very important to know what your goal is for the code and being able to decide where you can use loops. This allows for a large time decrease and makes your code easier to follow as well
+
+1. What questions do I have?
+I do not particularily have any questions but if I had a question it would be how to judge where you can use loops more quickly and easily.
