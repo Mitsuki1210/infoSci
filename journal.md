@@ -23,9 +23,8 @@ I want to be able to do the programming more quickly so I can make more complex 
 # Feb 13th Thurs
 1. What did we do?
 We updated the dice. We put a bargraph so that we can look at the infomation/data moe quickly and we also changed the colors of different things.
-
+   
     #These variables are to count the rools of the divice
-
     ones=0
     twos=0
     threes=0
