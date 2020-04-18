@@ -2,23 +2,23 @@
 
 # Jan 30th Thu
 1. What did we do?
-We did an activity of making Dr. Ruben make a jam sandwich. Each step was taken seriously and one lacking part or vague information would make the step not work
+	We did an activity of making Dr. Ruben make a jam sandwich. Each step was taken seriously and one lacking part or vague information would make the step not work
 
 1. What did you learn?
-I learned that making the steps to vague or to specific leads to a problem in the program.
+	I learned that making the steps to vague or to specific leads to a problem in the program.
 
 1. What questions do I have?
-I want to learn how to judge what the information that needs to be told is and how you can give percise information in the program
+	I want to learn how to judge what the information that needs to be told is and how you can give percise information in the program
 
 # Feb 11th Tue
 1. What did we do?
-We made circles and squares with a code that would allow us to use a dice on our computer. 
+	We made circles and squares with a code that would allow us to use a dice on our computer. 
 
 1. What did you learn?
-I learned how to make squares with curved edges, circles, and how to use the if to make the dice function
+	I learned how to make squares with curved edges, circles, and how to use the if to make the dice function
 
 1. What questions do I have?
-I want to be able to do the programming more quickly so I can make more complex patters (How I can achieve this?)
+	I want to be able to do the programming more quickly so I can make more complex patters (How I can achieve this?)
 
 # Feb 13th Thurs
 1. What did we do?
@@ -134,14 +134,14 @@ I want to be able to do the programming more quickly so I can make more complex 
 			  print("Number or times sixes has been rolled:",sixes)
 
 1. What did you learn?
-I learned how to code bargraphs and I also learned how to put in loops/patters (for x in range)
+	I learned how to code bargraphs and I also learned how to put in loops/patters (for x in range)
 
 1. What questions do I have?
-I want to learn how to be able to make colors quickly. Also to be able to make the loops more quickly
+	I want to learn how to be able to make colors quickly. Also to be able to make the loops more quickly
 
 # April 7
 1. What did we do? 
-We started making a corona simulation code that would help with imagining the spread of corona
+	We started making a corona simulation code that would help with imagining the spread of corona
 
 		definition of variables
 		x = 300
@@ -173,15 +173,15 @@ We started making a corona simulation code that would help with imagining the sp
 		delay(100)
 
 1. What did you learn?
-I learned that it is very important to know what your goal is for the code and being able to decide where you can use loops. This allows for a large time decrease and makes your code easier to follow as well
+	I learned that it is very important to know what your goal is for the code and being able to decide where you can use loops. This allows for a large time decrease and makes your code easier to follow as well
 
 1. What questions do I have?
-I do not particularily have any questions but if I had a question it would be how to judge where you can use loops more quickly and easily.
+	I do not particularily have any questions but if I had a question it would be how to judge where you can use loops more quickly and easily.
 
 
 # April 18
 1. What did we do?
-We made the corona simulation so that it we could see the spread of disease by putting in values of infected or not.
+	We made the corona simulation so that it we could see the spread of disease by putting in values of infected or not.
 
 		def setup():
 		size(500,500)
@@ -215,3 +215,7 @@ We made the corona simulation so that it we could see the spread of disease by p
 			if d < 40 and (h[nei] == False or h[ind] == False):
 			    h[ind] = False
 			     h[nei] = False
+1. What did you learn? 
+	I learned that breaking down codes can make it easier to program. I thought this when we did the distance between two different objects. If we had done it all together it would have been easier to make mistakes.
+1. Do you have any questions?
+	When I was coding, I had used [i] for [ind] and [n] for [nei] but 
