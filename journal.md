@@ -24,32 +24,32 @@ I want to be able to do the programming more quickly so I can make more complex 
 1. What did we do?
 We updated the dice. We put a bargraph so that we can look at the infomation/data moe quickly and we also changed the colors of different things.
 
-#These variables are to count the rools of the divice
+    #These variables are to count the rools of the divice
 
-ones=0
-twos=0
-threes=0
-fours=0
-fives=0
-sixes=0
+    ones=0
+    twos=0
+    threes=0
+    fours=0
+    fives=0
+    sixes=0
 
-def setup():
-    size(600,600)
+    def setup():
+        size(600,600)
 
-def draw():
-    #White background
-    x=0
-    delay(50)
-    mouseClick()
-    barGraph()
+    def draw():
+         #White background
+         x=0
+        delay(50)
+        mouseClick()
+        barGraph()
 
     
-def barGraph():
-    global ones
-    fill(0)
-    textSize(20)
-    for x in range (6):
-        text(x+1,(50+50*x),580)
+    def barGraph():
+        global ones
+        fill(0)
+        textSize(20)
+        for x in range (6):
+             text(x+1,(50+50*x),580)
    
     stroke(255,0,0)
     fill(255,0,0)
@@ -76,15 +76,15 @@ def barGraph():
     rect(295,550 - sixes, 20, sixes)
 
 
-def mouseClick():
-    global ones, twos, threes, fours, fives, sixes
-    fill(255)
-    background(255)
-    stroke(0)
-    strokeWeight(2)
-    rect(100,100,400,400,10)
-    stroke(200,230,50)
-    strokeWeight(5)
+    def mouseClick():
+        global ones, twos, threes, fours, fives, sixes
+        fill(255)
+        background(255)
+        stroke(0)
+        strokeWeight(2)
+        rect(100,100,400,400,10)
+        stroke(200,230,50)
+        strokeWeight(5)
 
     n = random(0,6)
     if 0<=n<1:
@@ -143,17 +143,17 @@ I want to learn how to be able to make colors quickly. Also to be able to make t
 1. What did we do? 
 We started making a corona simulation code that would help with imagining the spread of corona
 
-definition of variables
-x = 300
-y = 300
+    definition of variables
+    x = 300
+    y = 300
 
-def setup():
-    size(500,500)
+    def setup():
+        size(500,500)
     
-def draw():
-    global x, y
-    background(255)
-    strokeWeight(2)
+    def draw():
+        global x, y
+        background(255)
+            strokeWeight(2)
     
     #create 1st individual
     circle(x, y, 40)
