@@ -218,4 +218,4 @@
 1. What did you learn? 
 	I learned that breaking down codes can make it easier to program. I thought this when we did the distance between two different objects. If we had done it all together it would have been easier to make mistakes.
 1. Do you have any questions?
-	When I was coding, I had used [i] for [ind] and [n] for [nei] but 
+	When I was coding, I had used [i] for [ind] and [n] for [nei] but the code did not work but after I changed them it started to work and I was sort of confused. If you have a reason behind that it would be great to learn.
