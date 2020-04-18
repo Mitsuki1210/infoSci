@@ -141,7 +141,7 @@ I want to be able to do the programming more quickly so I can make more complex 
 
 # April 7
 1. What did we do? 
-	We started making a corona simulation code that would help with imagining the spread of corona
+We read an article on how computer simulations can help us with looking at the what may happen in the future. We also started making a corona simulation code that would help with imagining the spread of corona
 
 		definition of variables
 		x = 300
