@@ -143,34 +143,34 @@ I want to learn how to be able to make colors quickly. Also to be able to make t
 1. What did we do? 
 We started making a corona simulation code that would help with imagining the spread of corona
 
-    definition of variables
-    x = 300
-    y = 300
+	definition of variables
+	x = 300
+	y = 300
 
-    def setup():
-        size(500,500)
-    
-    def draw():
-        global x, y
-        background(255)
-            strokeWeight(2)
-    
-    #create 1st individual
-    circle(x, y, 40)
-    x = x + random(-10, 10)
-    y = y + random(-10, 10)
-        
-    #bounderies conditions
-    if x > 500:
-        x = 500
-    if x < 0:
-        x = 0
-    if y > 500:
-        y = 500
-    if y < 0:
-        y = 0
-    
-    delay(100)
+	def setup():
+	size(500,500)
+
+	def draw():
+	global x, y
+	background(255)
+	    strokeWeight(2)
+
+	#create 1st individual
+	circle(x, y, 40)
+	x = x + random(-10, 10)
+	y = y + random(-10, 10)
+
+	#bounderies conditions
+	if x > 500:
+	x = 500
+	if x < 0:
+	x = 0
+	if y > 500:
+	y = 500
+	if y < 0:
+	y = 0
+
+	delay(100)
 
 1. What did you learn?
 I learned that it is very important to know what your goal is for the code and being able to decide where you can use loops. This allows for a large time decrease and makes your code easier to follow as well
@@ -183,35 +183,35 @@ I do not particularily have any questions but if I had a question it would be ho
 1. What did we do?
 We made the corona simulation so that it we could see the spread of disease by putting in values of infected or not.
 
-    def setup():
-     size(500,500)
-        for n in range(20):
-         x.append(random(0,500))
-         y.append(random(0,500))
-         h.append (True)
-        
-    def distance(x1, x2, y1, y2):
-        a = (x1 - x2)
-         b = (y1 - y2)
-        c = sqrt(a**2 + b**2) 
-        return c
-    
-    def draw():
-         global x, y
-         background(255)
-    
-        #show the individuals
-        for ind in range(len(x)): 
-            if h[ind] == True:
-                fill(255)
-            else:
-                fill (255, 0, 0)
-        
-            circle(x[ind], y[ind], 40)
-            for nei in range(len(x)):
-                 if nei == ind:
-                    continue
-                d = distance(x[ind],x[nei],y[ind],y[nei])
-                if d < 40 and (h[nei] == False or h[ind] == False):
-                    h[ind] = False
-                     h[nei] = False
+	def setup():
+	size(500,500)
+	for n in range(20):
+	 x.append(random(0,500))
+	 y.append(random(0,500))
+	 h.append (True)
+
+	def distance(x1, x2, y1, y2):
+	a = (x1 - x2)
+	 b = (y1 - y2)
+	c = sqrt(a**2 + b**2) 
+	return c
+
+	def draw():
+	 global x, y
+	 background(255)
+
+	#show the individuals
+	for ind in range(len(x)): 
+	    if h[ind] == True:
+		fill(255)
+	    else:
+		fill (255, 0, 0)
+
+	    circle(x[ind], y[ind], 40)
+	    for nei in range(len(x)):
+		 if nei == ind:
+		    continue
+		d = distance(x[ind],x[nei],y[ind],y[nei])
+		if d < 40 and (h[nei] == False or h[ind] == False):
+		    h[ind] = False
+		     h[nei] = False
