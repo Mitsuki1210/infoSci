@@ -177,3 +177,41 @@ I learned that it is very important to know what your goal is for the code and b
 
 1. What questions do I have?
 I do not particularily have any questions but if I had a question it would be how to judge where you can use loops more quickly and easily.
+
+
+# April 18
+1. What did we do?
+We made the corona simulation so that it we could see the spread of disease by putting in values of infected or not.
+
+    def setup():
+     size(500,500)
+        for n in range(20):
+         x.append(random(0,500))
+         y.append(random(0,500))
+         h.append (True)
+        
+    def distance(x1, x2, y1, y2):
+        a = (x1 - x2)
+         b = (y1 - y2)
+        c = sqrt(a**2 + b**2) 
+        return c
+    
+    def draw():
+         global x, y
+         background(255)
+    
+        #show the individuals
+        for ind in range(len(x)): 
+            if h[ind] == True:
+                fill(255)
+            else:
+                fill (255, 0, 0)
+        
+            circle(x[ind], y[ind], 40)
+            for nei in range(len(x)):
+                 if nei == ind:
+                    continue
+                d = distance(x[ind],x[nei],y[ind],y[nei])
+                if d < 40 and (h[nei] == False or h[ind] == False):
+                    h[ind] = False
+                     h[nei] = False
